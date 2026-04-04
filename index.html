@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- iPhone PWA 対応 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="SNSマーケ" />
+    <meta name="theme-color" content="#090910" />
+
+    <!-- OGP / SNS シェア用 -->
+    <meta property="og:title" content="SNSマーケスケジューラー｜コる九音楽祭" />
+    <meta property="og:description" content="ヒット曲を作るための戦略的SNS投稿管理ツール" />
+    <meta property="og:type" content="website" />
+
+    <title>SNSマーケスケジューラー｜コる九音楽祭</title>
+
+    <style>
+      /* ページ全体のデフォルトリセット */
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body, #root { height: 100%; }
+      body {
+        background: #090910;
+        color: #e8e8f0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overscroll-behavior: none;
+      }
+      /* iOSスクロールバウンス防止 */
+      html { overflow: hidden; height: 100%; }
+      body { overflow-y: auto; height: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
