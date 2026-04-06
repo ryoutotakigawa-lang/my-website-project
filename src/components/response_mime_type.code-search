@@ -1,0 +1,9 @@
+# Query: response_mime_type
+# ContextLines: 1
+
+1 件の結果 - 1 ファイル
+
+music-sns-scheduler.jsx:
+  109      { method:"POST", headers:{"Content-Type":"application/json"},
+  110:       body:JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{responseMimeType:"application/json"} }) }
+  111    );
